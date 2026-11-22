@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Packaging / build outputs
+build/
+dist/
+*.whl
+
+# Local runtime data
+.cache/
+out/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets.*
+
+# Generated evaluation assets and private datasets
+eval/media/
+eval/codegen/
+eval/code_videos.yaml
+eval/code_videos_holdout.yaml
+eval/particles.yaml
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local helper scripts that are not part of release
+scripts/roundtrip_compare.py
